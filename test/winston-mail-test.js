@@ -12,15 +12,15 @@ var smtp = require('simplesmtp').createServer();
 var Mail = require('../lib/winston-mail').Mail;
 
 smtp.listen(2500, function (err) {
-   console.log(arguments)
-})
+   console.log(arguments);
+});
 
 function assertMail (transport) {
   assert.instanceOf(transport, Mail);
   assert.isFunction(transport.log);
-};
+}
 
-var config = helpers.loadConfig(__dirname)
+var config = helpers.loadConfig(__dirname);
 var transport = new (Mail)(config.transports.mail);
 
 vows.describe('winston-mail').addBatch({

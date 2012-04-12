@@ -12,7 +12,7 @@
   },
   "keywords": ["logging", "sysadmin", "tools", "winston", "email"],
   "dependencies": {
-    "emailjs": ""
+    "nodemailer": ""
   },
   "devDependencies": {
     "winston": "",
