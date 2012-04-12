@@ -1,6 +1,8 @@
 # winston-nodemail
 
-A email transport for [winston][0], borrowed almost entirely from [winston-mail][1], simply switched the email layer from [emailjs](https://github.com/eleith/emailjs) to [nodemailer](https://github.com/andris9/Nodemailer) because of an issue with [buffertools](https://github.com/bnoordhuis/node-buffertools), one of emailjs' dependencies.
+A email transport for [winston][0], borrowed almost entirely from [winston-mail][1], thanks [wavded](https://github.com/wavded).
+
+This fork simply switches the email layer from [emailjs](https://github.com/eleith/emailjs) to [nodemailer](https://github.com/andris9/Nodemailer) because of an issue with [buffertools](https://github.com/bnoordhuis/node-buffertools), one of emailjs' dependencies.
 
 ## Installation
 
