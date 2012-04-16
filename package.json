@@ -20,7 +20,7 @@
     "simplesmtp": "",
     "vows": ""
   },
-  "main": "./lib/winston-nodemail",
+  "main": "./lib/winston-mail",
   "scripts": { "test": "vows test/*-test.js --spec" },
   "engines": { "node": ">= 0.4.0" }
 }
