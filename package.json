@@ -13,7 +13,7 @@
   },
   "keywords": ["logging", "sysadmin", "tools", "winston", "email"],
   "dependencies": {
-    "nodemailer": ""
+    "nodemailer": "0.3.x"
   },
   "devDependencies": {
     "winston": "",
