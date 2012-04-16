@@ -1,14 +1,15 @@
 {
-  "name": "winston-mail",
+  "name": "winston-nodemail",
   "description": "A mail transport for winston",
   "version": "0.2.1",
   "author": "Marc Harter <wavded@gmail.com>",
   "contributors": [
-     "Ilya Volodarskyi <volodarsky@gmail.com>"
+     "Ilya Volodarsky <volodarsky@gmail.com>",
+     "Peter Reinhardt <reinpk@gmail.com>"
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/wavded/winston-mail.git"
+    "url": "http://github.com/pkrein/winston-nodemail.git"
   },
   "keywords": ["logging", "sysadmin", "tools", "winston", "email"],
   "dependencies": {
@@ -19,7 +20,7 @@
     "simplesmtp": "",
     "vows": ""
   },
-  "main": "./lib/winston-mail",
+  "main": "./lib/winston-nodemail",
   "scripts": { "test": "vows test/*-test.js --spec" },
   "engines": { "node": ">= 0.4.0" }
 }
