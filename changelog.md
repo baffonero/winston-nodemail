@@ -1,13 +1,33 @@
+
+0.2.5 / 2013-03-03 
+==================
+
+  * added; peer deps
+  * language fixes [eitanpo]
+
+0.2.4 / 2013-02-12 
+==================
+
+  * fixed; allow only single line messages in the subject [emergence]
+  * fixed; changing global underscore templateSettings breaks underscore templating [shawnburke]
+
+0.2.3 / 2012-07-09 
+==================
+
+  * removed; support for node 0.4.x
+  * added; travis for 0.8.x
+
+0.2.2 / 2012-06-14 
+==================
+
+  * updated; test suite
+  * adding; underscore templating to subject line [danielschwartz]
+
 0.2.1 / 2012-04-12
 ==================
 
   * fork of winston-mail to winston-nodemail
   * switched email layer from emailjs to nodemailer (pkrein)
-
-
-0.2.1 / 2012-02-27
-==================
-
   * updated; test suite
 
 0.2.0 / 2012-02-24
